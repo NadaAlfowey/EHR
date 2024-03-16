@@ -6,6 +6,11 @@ from django.contrib.messages import constants as messages
 BASE_DIR = Path(__file__).resolve().parent.parent
 from os import environ, getenv
 
+INSTALLED_APPS = ['bootstrap4']
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
